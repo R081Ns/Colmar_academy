@@ -61,7 +61,6 @@ header h1{
     flex-direction: column;
     align-items: left;
     justify-content: center;
-
 }
 
 .banner1 h1{
@@ -77,4 +76,57 @@ header h1{
     margin-right: auto;
     background-color: darkcyan;
     border: darkcyan;
+    transition: all 1s ease 0s;
+}
+
+.banner1 button:hover{
+    background-color: gray;
+}
+
+.banner2 {
+    display: flex;
+}
+
+.banner2_1{
+    margin: 32px 24px;
+    width: 60%;
+    line-height: 24px;
+}
+
+.banner2_1 img{
+    width: 100%;
+}
+
+.banner2_2{
+    margin-top: 32px;
+    width: 40%;
+    align-items: center;
+}
+
+.banner2_1 h1{
+    color: darkcyan;
+}
+
+.banner2_2_square1{
+    display: flex;
+    border: rgb(27, 36, 36) 1px solid;
+    transition: all 1s ease 0s;
+}
+
+.banner2_2_square1:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.banner2_2_square1 img{
+    width: 35%;
+    height: auto;
+}
+
+.banner2_2_square1_text{
+    width: 65%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
