@@ -111,6 +111,7 @@ header h1{
     display: flex;
     border: rgb(27, 36, 36) 1px solid;
     transition: all 1s ease 0s;
+    margin: 16px;
 }
 
 .banner2_2_square1:hover{
@@ -125,8 +126,124 @@ header h1{
 
 .banner2_2_square1_text{
     width: 65%;
+    line-height: 8px;
     align-items: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.banner2_2_square2{
+    display: flex;
+    border: rgb(27, 36, 36) 1px solid;
+    transition: all 1s ease 0s;
+    margin: 16px;
+}
+
+.banner2_2_square2:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.banner2_2_square2 img{
+    width: 35%;
+    height: auto;
+}
+
+.banner2_2_square2_text{
+    width: 65%;
+    line-height: normal;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner2_2_square3{
+    display: flex;
+    border: rgb(27, 36, 36) 1px solid;
+    transition: all 1s ease 0s;
+    margin: 16px;
+}
+
+.banner2_2_square3:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.banner2_2_square3 img{
+    width: 35%;
+    height: auto;
+}
+
+.banner2_2_square3_text{
+    width: 65%;
+    line-height: 8px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner2_2_square3_text p{
+    line-height: 30px;
+}
+
+.banner3{
+    background-color: rgb(76, 78, 78);
+}
+
+.banner3 h1{
+    padding: 16px;
+    text-align: center;
+    color:darkcyan;
+}
+
+.banner3 h2{
+    padding: 16px;
+    text-align: left;
+    color:darkcyan;
+}
+
+.banner3_box {
+    display: flex;
+    padding: 32px 72px;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner3_box img{
+    max-width: 100%;
+}
+
+.banner3_box_1,
+.banner3_box_2,
+.banner3_box_3,
+.banner3_box_4,
+.banner3_box_5,
+.banner3_box_6{
+    margin: 16px;
+    width: 30%;
+    background-color:rgb(58, 58, 58) ;
+}
+
+.banner3_box_1 p,
+.banner3_box_2 p,
+.banner3_box_3 p,
+.banner3_box_4 p,
+.banner3_box_5 p,
+.banner3_box_6 p{
+    margin: 0px 16px 24px 16px;
+    line-height: normal;
+}
+
+footer{
+    display: flex;
+    margin: 0px auto;
+    align-content: space-between;
+    color: darkcyan;
+    background-color: rgb(58, 58, 58);
+    border-top: darkcyan 3px solid;
 }
