@@ -15,6 +15,10 @@ header h1{
     font-size: 32px;
 }
 
+.div_mobile{
+    display: none;
+}
+
 .logo{
     padding-left: 24px;
     display: flex;
@@ -314,4 +318,104 @@ footer{
 
 .banner4_2_square3_text p {
     line-height: 30px;
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px){
+    
+    header{
+        display: none;
+    }
+
+    .banner1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(76, 78, 78);
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .banner1 img{
+        max-width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .banner1 h1{
+        margin: 32px 16px;
+    }
+
+    .banner1 h2{
+        margin-bottom: 24px;
+    }
+    
+    .banner1 button{
+        margin-bottom: 32px;
+    }
+
+    .banner2_1{
+        display: none;
+    }
+    
+    .banner2_2{
+        width: 100%;
+    }
+
+    .banner3 h1{
+        margin: 32px auto auto 16px;
+    }
+
+    .banner3 h2{
+        text-align: center;
+    }
+
+    .banner3 p,
+    .banner3 img{
+        display: none;
+    }
+
+    .banner3_box{
+        flex-direction: column;
+    }
+
+    .banner3_box_1,
+    .banner3_box_2,
+    .banner3_box_3,
+    .banner3_box_4,
+    .banner3_box_5,
+    .banner3_box_6{
+        width: 100%;
+        margin: 8px auto auto 0;
+    }
+    
+    .banner4 img,
+    .banner4 p,
+    .banner4 h1,
+    .banner4 a,
+    .banner4 h2,
+    .banner4_2_square1,
+    .banner4_2_square2,
+    .banner4_2{
+        display: none;
+    }
+
+    .banner4 video,
+    .banner4_1{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .div_mobile{
+        display: flex !important;
+        align-content: space-between;
+        justify-content: space-around;
+        padding: 20px;
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    .div_mobile img{
+        
+    }
 }
